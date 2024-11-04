@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Smart S.L.</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+            padding: 10px;
+            background-color: #fafbe3;
+        }
+        header{
+            background-color: #fadab1;
+            color: #000000;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px; 
+            height: 60px; 
+        }
+        .top-nav{
+            background-color: #373636;
+            justify-content: space-between;
+            padding: 10px 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .top-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .top-nav ul li{
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .top-nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            display: block;
+        }
+        .top-nav ul li a:hover {
+            background-color: #fb9910;
+        }
+        .main {
+            background-color: #c5e1f8;
+            color: #000000;
+            padding: 1px 1px;
+            align-items: center;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 2px;
+        }
+        .section {
+            background-color: #fff;
+            color: #000000;
+            border: 2px solid black;
+            text-align: center;
+            align-items: center;
+            line-height: 1.5;
+            padding: 2px 2px;
+            margin-bottom: 2px;
+        }
+        table {
+            border: 1;
+        }
+        tbody{
+            background-color: #fff;
+        }
+        th{
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+        table th:nth-child(2),
+        table th:nth-child(3),
+        table td:nth-child(2),
+        table td:nth-child(3) {
+            width: 50%;
+        }
+        .justified-list {
+            text-align: justify;
+            padding-left: 4px;
+            margin-left: 0;
+            list-style-position: inside;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin-top: 5px;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> TABLA COMPARATIVA XHTML vs HTML</h1>
+    </header>
+    <div class="top-nav">
+        <ul>
+            <li><a href="index.html">Explicación de la tarea</a></li>
+            <li><a href="productos.html">Catálogo de Productos</a></li>
+            <li><a href="formulario-de-registro.html">Registrate en Techno Smart S.L.</a></li>
+            <li><a href="noticias.html">Sección de Noticias</a></li>
+            <li><a href="tabla comparativa XHTML vs HTML.html">Tabla comparativa XHTML vs HTML</a></li>
+        </ul>
+    </div>
+    <main class="main">
+            <h2>¿QUÉ ES XHTML?</h2>
+    </main>
+    <section class="section">
+        <p>XHTML (Extensible Hypertext Markup Language) es un lenguaje de marcas que combina características de HTML y XML. Es una versión más estricta de HTML que sigue las reglas de XML (Extensible Markup Language), lo que lo hace más estructurado y menos tolerante a errores. </p>
+    </section>
+    <main class="main">
+        <h2>TABLA COMPARATIVA</h2>
+    </main>
+    <section class="section">
+        <p>A continuación se presenta una tabla comparativa de los principales aspectos entre XHTML y HTML.</p>
+    </section>
+    <section class="section">
+        <table border="1">
+            <thead>
+             <tr>
+                <th>ASPECTO</th>
+                <th>XHTML</th>
+                <th>HTML</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Definición</strong></td>
+                    <td text align="justify">Extensible Hypertext Markup Language, una reformulación de HTML en XML.</td>
+                    <td >Hypertext Markup Language, el lenguaje estándar para crear páginas web.</td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Ámbitos de Aplicación</strong></td>
+                    <td text align="justify">Usado en aplicaciones donde la precisión y la estructuración estricta son importantes, como en sistemas de publicación XML o aplicaciones móviles antiguas.</td>
+                    <td text align="justify">Usado en la mayoría de las páginas web y aplicaciones web modernas. Es el lenguaje más común para el desarrollo web.</td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Sintaxis Estricta</strong></td>
+                    <td text align="justify">Requiere etiquetas cerradas, minúsculas para nombres de etiquetas y atributos, y una estructura de documento bien formada.</td>
+                    <td text align="justify">Más flexible, permite omisiones en etiquetas y una estructura menos estricta.</td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Ventajas</strong></td>
+                    <td>
+                        <ul class="justified-list">
+                            <li>Mejora la interoperabilidad con otras tecnologías XML.</li>
+                            <li>Ayuda a mantener el código limpio y ordenado.</li>
+                            <li>Compatible con el análisis XML.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="justified-list">
+                            <li>Flexibilidad en la escritura de código.</li>
+                            <li>Mayor tolerancia a errores, lo que facilita el desarrollo rápido.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Inconvenientes</strong></td>
+                    <td>
+                        <ul class="justified-list">
+                            <li>Estricto en cuanto a la sintaxis, lo que puede aumentar el tiempo de desarrollo.</li>
+                            <li>No permite errores, lo que puede causar problemas en la visualización si el código no está bien formado.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="justified-list">
+                            <li>Permite errores, lo que puede llevar a inconsistencias y errores de renderización en diferentes navegadores.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Compatibilidad</strong></td>
+                    <td text align="justify">Es compatible con los navegadores modernos, pero no tan ampliamente usado en la web actual. Más común en aplicaciones específicas y entornos que requieren XML.</td>
+                    <td text align="justify">Amplia compatibilidad en todos los navegadores y aplicaciones web. Es el estándar para la mayoría de los sitios web.</td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Validación</strong></td>
+                    <td text align="justify">Las páginas XHTML deben cumplir con las reglas de XML, lo que significa que deben validarse como documentos XML.</td>
+                    <td text align="justify">La validación no es obligatoria y la mayoría de los navegadores manejan HTML con errores leves.</td>
+                </tr>
+                <tr>
+                    <td text align="center" style="background-color: #f89b04;"><strong>Diferencias con HTML</strong></td>
+                    <td text align="justify">XHTML es más estricto en cuanto a la sintaxis y se basa en XML, lo que permite su integración con otras aplicaciones XML. Requiere un cierre adecuado de todas las etiquetas y un uso adecuado de mayúsculas y minúsculas.</td>
+                    <td text align="justify">HTML es más permisivo en cuanto a la sintaxis, permitiendo omitir el cierre de algunas etiquetas y sin distinción estricta entre mayúsculas y minúsculas.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>© 2024 Techno Smart S.L. - Todos los derechos reservados.</p>
+    </footer>
